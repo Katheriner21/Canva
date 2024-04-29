@@ -1,0 +1,56 @@
+.imagenes{
+    width: 125px;
+}
+.imagenes img{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.imagenes video{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin: 0 auto;
+    flex-direction: column;
+    max-height: 49.5vh;
+    max-width: 800px;
+    align-content: center;
+}
+h1{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h4{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15.5px;
+    color: rgb(131, 130, 130);
+    font-weight: 100;
+    margin-bottom: 35px;
+}
+.boton button{
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 9px;
+    border: none;
+    border-radius: 5px;
+}
+.boton{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+@media (max-width:1200px){
+    .galeria{
+        max-height: 100vh;
+    }
+    .imagenes{
+        max-width: 125px;
+    }
+}
